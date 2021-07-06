@@ -4,14 +4,13 @@ cars = dict()
 
 for row in file:
     row = row.strip().split()
-    # this add salesman to the "table" dictionary
+    # this add salesman in a "table" dictionary
     if row[0] not in table:
         table[row[0]] = 0
-    # this add price to the "table" dictionary as values to the salesman
+    # this add price in a "table" dictionary as values to the salesman
     if row[-1] not in table:
         table[row[0]] += int(row[-1])
-
-    # this add name of car to the "cars" dictionary
+    # this add name of car in a "cars" dictionary
     if row[1] not in cars:
         cars[row[1]] = 1
     else:
