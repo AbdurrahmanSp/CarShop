@@ -8,3 +8,5 @@ The codes are described below the second order of performance. Each code is prin
 the amount earned by the seller, separated by a blank space. The program then prints the three most sold ˇ
 car brands based on the number of cars sold. The stamps are printed one below
 others. The number of copies sold is printed next to each one.
+
+- From the collection of tasks for the first year of PMF Sarajevo.
